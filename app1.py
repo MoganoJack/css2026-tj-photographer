@@ -83,7 +83,7 @@ elif section == "Portfolio":
 
     with col2:
         st.image(
-            "C:/Users/tshoa/Desktop/css1/images/IMG_7404.jpg",
+            "https://github.com/MoganoJack/css2026-tj-photographer/blob/main/IMG_8405.jpg",
             caption="Event Photography",
             use_column_width=True
         )
@@ -191,4 +191,5 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
