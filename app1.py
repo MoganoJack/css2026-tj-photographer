@@ -75,7 +75,7 @@ elif section == "Portfolio":
 
     with col1:
         st.image(
-            "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+            "images/Events(Mogano Jtack Tshoane).jpg",
             caption="Portrait Photography",
             use_column_width=True
         )
@@ -161,6 +161,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
