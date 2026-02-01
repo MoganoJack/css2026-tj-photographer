@@ -44,9 +44,9 @@ if section == "Home":
 elif section == "About Me":
     st.header("👤 About the Researcher & Photographer")
 
-    st.write(Name:**Mogano Jack**)
-    st.write(Location:**Limpopo**)
-    st.write(Brand: **TJ photographer**)
+    st.write("**Name**:Mogano Jack")
+    st.write("**Location**:Limpopo")
+    st.write("**Brand**: TJ photographer")
       st.write(
         f"""  
         I studied **Diploma in Creative Arts (Photography)**, where I developed a strong foundation in 
@@ -189,6 +189,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research Informed about Photography Practice")
+
 
 
 
