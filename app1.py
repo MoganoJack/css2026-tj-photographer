@@ -96,7 +96,7 @@ elif section == "Portfolio":
             caption="Lifestyle Photography",
             use_column_width=True
         )
-        with col3:
+    with col3:
         st.image(
             "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
             caption="Lifestyle Photography",
@@ -192,6 +192,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
