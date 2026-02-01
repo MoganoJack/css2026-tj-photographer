@@ -122,17 +122,40 @@ elif section == "Analytics":
 
     st.write(
         """
-        The chart below demonstrates how booking data is analysed
-        to identify high-demand photography services.
+        This analysis explores **monthly booking trends across different photography services**.
+        Use the controls below to adjust the time range and service type.
         """
     )
 
+    # Monthly service data (sample research data)
     data = pd.DataFrame({
-        "Service": ["Graduation", "Birthdays", "Headshots", "Events"],
-        "Bookings": [35, 25, 20, 15]
+        "Month": [
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ],
+        "Graduation": [2, 3, 5, 6, 8, 10, 9, 8, 7, 6, 4, 3],
+        "Events": [3, 4, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3],
+        "Birthdays": [1, 2, 3, 4, 5, 6, 6, 5, 4, 3, 2, 1],
+        "Headshots": [1, 1, 2, 3, 4, 5, 6, 6, 5, 4, 3, 2]
     })
 
-    st.bar_chart(data.set_index("Service"))
+    # Month selector (adjustable)
+    month_range = st.slider(
+        "Select month range",
+        min_value=0,
+        max_value=11,
+        value=(0, 11)
+    )
+
+    filtered_data = data.iloc[month_range[0]: month_range[1] + 1]
+
+    # Service selector
+    service = st.selectbox(
+        "Select photography service",
+        ["Graduation", "Events", "Birthdays", "Headshots"]
+    )
+
+    st.bar_chart(filtered_data.set_index("Month")[service])
 
 # ================= TOOLS & SKILLS =================
 elif section == "Tools & Skills":
@@ -166,6 +189,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
