@@ -98,7 +98,7 @@ elif section == "Portfolio":
         )
     with col3:
         st.image(
-            "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            "https://github.com/MoganoJack/css2026-tj-photographer/blob/main/white%20without%20b1.jpg",
             caption="Lifestyle Photography",
             use_column_width=True
         )
@@ -192,6 +192,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
