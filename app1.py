@@ -45,13 +45,20 @@ elif section == "About Me":
     st.header("👤 About the Researcher & Photographer")
 
     st.write(
-        """
-        I am a student photographer based in Limpopo, operating under the brand
-        **TJ_Photographer**. My work focuses on portrait, event, and lifestyle photography.
+        f"""
+        My name is **Mogano Jack**, a student photographer based in **Limpopo**, 
+        operating under the brand **TJ photographer**.
 
-        My practice integrates **creative storytelling**, **technical expertise**,
-        and **research methods** to improve both artistic quality and business growth.
+        I studied **Diploma in Creative Arts (Photography)**, where I developed a strong foundation in 
+        visual storytelling, photography techniques, and creative practice.
+
+        My work focuses on **portrait, event, and lifestyle photography**.
+        My practice integrates **creative storytelling**, **technical expertise**, 
+        and **research-based methods** to improve both artistic quality and 
+        sustainable business growth.
         """
+    )
+
     )
 
 # ================= RESEARCH =================
@@ -161,6 +168,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
