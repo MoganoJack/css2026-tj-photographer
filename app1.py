@@ -19,7 +19,6 @@ section = st.sidebar.radio(
         "Portfolio",
         "Services",
         "Analytics",
-        "Booking",
         "Tools & Skills",
         "Contact"
     ]
@@ -130,28 +129,6 @@ elif section == "Analytics":
 
     st.bar_chart(data.set_index("Service"))
 
-# ================= BOOKING =================
-elif section == "Booking":
-    st.header("📅 Booking Request Form")
-
-    with st.form("booking_form"):
-        name = st.text_input("Full Name")
-        email = st.text_input("Email Address")
-        service = st.selectbox(
-            "Select Service",
-            ["Graduation Shoot", "Birthday/Event", "Headshots"]
-        )
-        date = st.date_input("Preferred Date")
-        message = st.text_area("Additional Information")
-
-        submitted = st.form_submit_button("Submit Booking Request")
-
-        if submitted:
-            st.success(
-                "Thank you! Your booking request has been submitted. "
-                "You will be contacted shortly."
-            )
-
 # ================= TOOLS & SKILLS =================
 elif section == "Tools & Skills":
     st.header("🛠️ Tools & Skills")
@@ -184,6 +161,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
