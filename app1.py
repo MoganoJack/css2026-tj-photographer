@@ -96,12 +96,6 @@ elif section == "Portfolio":
             caption="Lifestyle Photography",
             use_column_width=True
         )
-    with col3:
-        st.image(
-            "https://github.com/MoganoJack/css2026-tj-photographer/blob/main/white%20without%20b1.jpg",
-            caption="Lifestyle Photography",
-            use_column_width=True
-        )
 
 # ================= SERVICES =================
 elif section == "Services":
@@ -192,6 +186,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
