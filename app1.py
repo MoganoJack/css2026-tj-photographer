@@ -72,8 +72,6 @@ elif section == "Research Focus":
 elif section == "Portfolio":
     st.header("🖼️ Portfolio Showcase")
 
-    st.info("Replace these sample images with your own hosted photography work.")
-
     col1, col2, col3 = st.columns(3)
 
     with col1:
@@ -186,6 +184,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
