@@ -47,7 +47,7 @@ elif section == "About Me":
     st.write("**Name**:Mogano Jack")
     st.write("**Location**:Limpopo")
     st.write("**Brand**: TJ photographer")
-      st.write(
+    st.write(
         f"""  
         I studied **Diploma in Creative Arts (Photography)**, where I developed a strong foundation in 
         visual storytelling, photography techniques, and creative practice.
@@ -189,6 +189,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research Informed about Photography Practice")
+
 
 
 
