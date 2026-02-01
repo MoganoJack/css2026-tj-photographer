@@ -72,35 +72,36 @@ elif section == "Research Focus":
 elif section == "Portfolio":
     st.header("🖼️ Portfolio Showcase")
 
+    st.info("Replace these sample images with your own hosted photography work.")
+
     col1, col2, col3 = st.columns(3)
 
     with col1:
         st.image(
-            "C:/Users/tshoa/Desktop/css1/images/IMG_8405.jpg",
+            "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
             caption="Portrait Photography",
             use_column_width=True
         )
 
     with col2:
         st.image(
-            "https://github.com/MoganoJack/css2026-tj-photographer/blob/main/IMG_8405.jpg",
+            "https://images.unsplash.com/photo-1519741497674-611481863552",
             caption="Event Photography",
             use_column_width=True
         )
 
     with col3:
         st.image(
-            "C:/Users/tshoa/Desktop/css1/images/IMG_7876.jpg",
-            caption="Graduation Photography",
-            use_column_width=True
-        )
-        
-    with col4:
-        st.image(
-            "C:/Users/tshoa/Desktop/css1/images/white without b1.jpg",
+            "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
             caption="Lifestyle Photography",
             use_column_width=True
-            )
+        )
+        with col3:
+        st.image(
+            "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            caption="Lifestyle Photography",
+            use_column_width=True
+        )
 
 # ================= SERVICES =================
 elif section == "Services":
@@ -191,5 +192,6 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
