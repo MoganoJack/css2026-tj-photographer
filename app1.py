@@ -59,8 +59,6 @@ elif section == "About Me":
         """
     )
 
-    )
-
 # ================= RESEARCH =================
 elif section == "Research Focus":
     st.header("🔬 Research Focus Areas")
@@ -168,6 +166,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
