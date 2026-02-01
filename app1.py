@@ -75,21 +75,21 @@ elif section == "Portfolio":
 
     with col1:
         st.image(
-            "images/Events(Mogano Jtack Tshoane).jpg",
+            "images/Portrait(Mogano Jtack Tshoane).jpg",
             caption="Portrait Photography",
             use_column_width=True
         )
 
     with col2:
         st.image(
-            "https://images.unsplash.com/photo-1519741497674-611481863552",
+            "images/Events(Mogano Jtack Tshoane).jpg",
             caption="Event Photography",
             use_column_width=True
         )
 
     with col3:
         st.image(
-            "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            "images/LifeStyle(Mogano Jtack Tshoane).jpg",
             caption="Lifestyle Photography",
             use_column_width=True
         )
@@ -161,6 +161,7 @@ elif section == "Contact":
     )
 
     st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+
 
 
 
