@@ -46,9 +46,10 @@ elif section == "About Me":
 
     st.write(
         f"""
-        My name is **Mogano Jack**, a student photographer based in **Limpopo**, 
-        operating under the brand **TJ photographer**.
-
+        Name:**Mogano Jack**
+        Location:**Limpopo**
+        Brand: **TJ photographer**
+        
         I studied **Diploma in Creative Arts (Photography)**, where I developed a strong foundation in 
         visual storytelling, photography techniques, and creative practice.
 
@@ -188,7 +189,8 @@ elif section == "Contact":
         """
     )
 
-    st.caption("© 2026 TJ_Photographer | Research-Informed Photography Practice")
+    st.caption("© 2026 TJ_Photographer | Research Informed about Photography Practice")
+
 
 
 
